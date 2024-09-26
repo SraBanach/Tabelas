@@ -1,0 +1,42 @@
+table { 
+    /* border do table são das extremidades */
+    border-collapse: collapse;
+    border: 1px solid rgb(62, 50, 85);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+    /* width largura da tabela  */
+}
+
+thead{ 
+    background-color: rgb(62, 50, 85);
+    color: rgb(213, 198, 226);
+
+
+}
+th { 
+    padding-top: 30px;
+    padding-bottom: 30px ;
+}
+
+    tbody { 
+        background-color: rgb(213, 198, 226);
+        text-align: center;
+    }
+
+    .galeria {
+        height: 150px;
+        object-fit: cover; 
+        /* cover para pegar masi centralizado, melhor angulo */
+        /* classe é uma variavel para eu padronizar meus elementos  */
+        /* para nao padronizar no total eu separo por classe */
+        /* dentro de todas as tags eu posso acrescentar classe */
+    }
+    .remover { 
+        height: 10px;
+        object-fit: cover;
+    }
+    .check { 
+        height: 15px;
+        object-fit: cover;
+    }

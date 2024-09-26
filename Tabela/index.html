@@ -1,0 +1,54 @@
+<!-- Como começar a montagem de uma tabela em html ?
+Lembrar de comecar por cabeçalho, depois as linhas e por ultimo a célula; -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Minha primeira tabela</title>
+</head>
+<body>
+    <table> <!-- Tabela  -->
+        <thead> <!-- Representa a primeira linha que é o Cabeçalho  -->
+            <!--  -->
+            <tr>  <!-- linha -->
+                <!-- th só se usa no cabeçalho -->
+                <th scope="col"> Aluno </th> <!-- coluna -->
+                <th scope="col"> Conhecimento </th> <!-- coluna -->
+                <th scope="col"> Idade </th> <!-- coluna -->
+            </tr> <!-- FIM linha -->
+        </thead>
+        <!-- Cada tr representa uma linha  -->
+        <tbody> <!-- corpo tabela -->
+            <tr> <!-- Linha  -->
+                <td> Rogério </td> <!-- célula --> 
+                <td> HTML </td> <!-- célula -->
+                <td> 22 </td> <!-- célula -->
+            </tr> <!-- FIM da linha -->
+            <tr>
+                <td> Denis </td> <!-- célula -->
+                <td> C# </td> <!-- célula -->
+                <td> 45 </td> <!-- célula -->
+            </tr>
+            <tr>
+                <td> Cristina </td> <!-- célula -->
+                <td> JavaScript </td> <!-- célula -->
+                <td> 23 </td> <!-- célula -->
+            </tr>
+            <tr>
+                <td> Walmir </td> <!-- célula -->
+                <td> Java </td> <!-- célula -->
+                <td> 58 </td> <!-- célula -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- colspan= Mesclar colunas -->
+                <th colspan="2"> Média de idade </th>
+                <td>33</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

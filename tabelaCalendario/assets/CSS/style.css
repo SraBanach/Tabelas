@@ -1,0 +1,25 @@
+
+
+th { 
+    padding-top: 30px;
+    padding-bottom: 30px ;
+}
+
+
+thead{ 
+    background-color: rgb(176, 195, 223);
+    color: rgb(46, 71, 109);
+
+
+}
+tbody { 
+    background-color: rgb(231, 233, 238);
+    text-align: center;
+}
+
+.foto{ 
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}

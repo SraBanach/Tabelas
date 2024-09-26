@@ -1,0 +1,26 @@
+table { 
+    /* border do table são das extremidades */
+    border-collapse: collapse;
+    border: 2px solid rgb(62, 50, 85);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+    /* width largura da tabela  */
+}
+
+thead { 
+    background-color: rgb(191, 172, 235);
+}
+
+th, td { 
+    /* bordas finas */
+    border: 1px solid;
+    padding: 8px 10px;
+    /* padding primeiro numero altura (em cima e embaixo) da linha */
+    /* padding segundo numero inicio e fim do espaco da célula  */
+}
+
+tbody { 
+    background-color: rgb(213, 198, 226);
+    text-align: center;
+}
